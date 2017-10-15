@@ -1,5 +1,5 @@
 
-f = open('/home/polyak/PycharmProjects/test1/Romanych/input/task0.in')
+f = open('task0.in')
 str1 = str(f.readline())
 str2 = str(f.readline())
 str1 = str1[:-1]
@@ -9,7 +9,7 @@ str2 = str2[::-1]
 
 str_max = []
 f.close()
-f = open('/home/polyak/PycharmProjects/test1/Romanych/output/task0.out')
+f = open('task0.out')
 check = f.readline()
 f.close()
 print(check)
@@ -43,7 +43,7 @@ for y in range(len(u)):
     str_result = str_result + u[y]
 
 
-f = open('/home/polyak/PycharmProjects/test1/Romanych/output/task0.out', 'w')
+f = open('task0.out', 'w')
 f.write('ответ:  ')
 f.write(str_result)
 f.close()
