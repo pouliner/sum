@@ -12,6 +12,7 @@ f.close()
 f = open('task0.out')
 check = f.readline()
 f.close()
+print("rading")
 print(check)
 
 if len(str1) > len(str2):
